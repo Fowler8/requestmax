@@ -1,4 +1,4 @@
-from pyrequest.sessions import Session
+from pyrequest.mixin.sessions import Session
 
 
 def request(method, url, **kwargs):
